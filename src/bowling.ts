@@ -9,3 +9,6 @@ export class Bowling {
     return 0
   }
 }
+
+const bowling = new Bowling()
+bowling.speak()
