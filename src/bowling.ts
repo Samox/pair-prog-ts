@@ -1,9 +1,11 @@
+type Croute = Omit<{id: string, name: string},'id'>
+const croute: Croute = {name: 'Yolo'}
+
 export class Bowling {
-  roll(pins: number) {
-
+  speak() {
+    console.log('croute', croute);
   }
-
   getScore() {
-
+    return 0
   }
 }
