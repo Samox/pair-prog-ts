@@ -1,7 +1,7 @@
 export class Bowling {
-  roll(pins: number) {
-  }
-  getScore() {
-    return 0
-  }
+    public roll(pins: number) {
+    }
+    public getScore() {
+        return undefined
+    }
 }
